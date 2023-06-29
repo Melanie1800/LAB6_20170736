@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/listaEventosFragment">
+
+    <fragment
+        android:id="@+id/listaEventosFragment"
+        android:name="com.example.calendar_20170736.ListaEventosFragment"
+        android:label="fragment_lista_eventos"
+        tools:layout="@layout/fragment_lista_eventos" >
+        <action
+            android:id="@+id/action_listaEventosFragment_to_actualizarFragment"
+            app:destination="@id/actualizarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/actualizarFragment"
+        android:name="com.example.calendar_20170736.ActualizarFragment"
+        android:label="fragment_actualizar"
+        tools:layout="@layout/fragment_actualizar" />
+</navigation>

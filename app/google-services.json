@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "793028452505",
+    "project_id": "laboratorio6-56000",
+    "storage_bucket": "laboratorio6-56000.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793028452505:android:98e7ff0fa87a0460f9d808",
+        "android_client_info": {
+          "package_name": "com.example.calendar_20170736"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793028452505-uj69766dn390cb0mevursknhft0nv8q0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvreSuKU4gedsIvP4Ceb1BqbWGkiJ6yxo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793028452505-uj69766dn390cb0mevursknhft0nv8q0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
